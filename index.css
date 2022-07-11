@@ -1,0 +1,41 @@
+.container {
+  background: black;
+  width: 300px;
+  height: 300px;
+  color: #FFF;
+  /** 속성 **/
+  display:block;
+  font-size:10px;
+  font-family: "굴림";
+  color:rgba(255, 255, 1, 0.5);
+}
+
+h6 {
+  font-size: 30px;
+  color:#abc;
+  background:transparent;
+  float:left;
+}
+h6::after{
+  clear:both;
+  content:'';
+  display:block;
+}
+
+.para {
+  color:blue;
+  display: flex;
+}
+
+.head2 {
+  font-size:30px;
+
+}
+
+#head1{
+  color:green;
+}
+
+[data-type] {
+  color:red;
+}
