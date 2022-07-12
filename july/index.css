@@ -1,0 +1,14 @@
+a {
+    color:brown;
+    text-decoration: none;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 20px;
+}
+li {
+    font-size: 30px;
+}
