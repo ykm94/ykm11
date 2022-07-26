@@ -16,7 +16,7 @@ p {
 }
 
 .wrap-header .menu {
-  max-width: 952px;
+  max-width: 1296px;
   margin: 0 auto;
   height: 72px;
   display: flex;
@@ -92,14 +92,18 @@ p {
 }
 
 .wrapper {
-  max-width: 952px;
+  max-width: 1296px;
   margin: 0 auto;
   /* display:flex; */
 }
 
 .wrapper .main-title .main-title-text {
+  line-height: 50px;
   display: flex;
   flex-direction: column;
+  font-size: 32px;
+  font-weight: 800;
+  padding-top: 70px
 }
 
 .wrapper .main-title {
@@ -114,6 +118,7 @@ p {
 
 .first-card {
   display: flex;
+  padding-top: 60px;
 }
 
 .shadow {
@@ -222,18 +227,16 @@ p {
 
 .first-card .right-wrapper {
   display: flex;
-  width: 327px;
+  width: 600px;
   margin-left: 25px;
   height: 666px;
   flex-wrap: wrap;
-  /* overflow:auto; */
 }
 
 .first-card .right-card {
   height: 192px;
   display: block;
-  /* width:calc(50% - 20px); */
-  width: 100%;
+  width: 270px;
   margin: 0 10px;
 }
 
@@ -251,6 +254,15 @@ p {
 
 .mobile {
   display: none !important
+}
+
+@media screen and (max-width:1299px) {
+  .wrap-header .menu, .wrapper, .wrap-footer {
+    max-width: 1296px;
+  }
+  .first-card .right-card {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 768px) {
